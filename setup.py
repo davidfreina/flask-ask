@@ -25,11 +25,6 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=parse_requirements('requirements.txt'),
-    test_requires=[
-        'mock',
-        'requests'
-    ],
-    test_suite='tests',
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
         'Framework :: Flask',
